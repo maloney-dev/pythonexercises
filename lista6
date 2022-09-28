@@ -49,8 +49,8 @@ def soma(a, b, c, d, e, f):
         if i > 0:
             cont += 1
             soma += i
-            print(f"{cont} são positivos.") /n
-            print(f"A soma dos positivos é:{soma}")
+    print(f"{cont} são positivos.") 
+    print(f"A soma dos positivos é:{soma}")
 
             
             
