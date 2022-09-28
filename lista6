@@ -1,4 +1,4 @@
-# # EX - 1048
+# # URI - 1048
 # def aumentoSalario(salario):
 
 #     if salario >= 0 and salario <= 400:
@@ -24,7 +24,7 @@
 
 # aumentoSalario(1133)
 
-#EX- 2057
+#URI- 2057
 # def calcFuso(partida, tempoV, fuso):     
 #     total = partida + tempoV + fuso
 #     if fuso < 0 and total <= 24 or total < 0:
@@ -40,8 +40,10 @@
 #         print(f"voce chegará no seu destino {total}h.")       
 # calcFuso(15, 13, -4)
 
+#URI-1064
 
-
+def soma(a, b, c, d, e, f):
+    
 
 
 
