@@ -41,24 +41,21 @@
 # calcFuso(15, 13, -4)
 
 #URI-1064
-
-def soma(a, b, c, d, e, f):
-    for i in range(6):
-        cont = 0
-        soma = 0
-        num = float(input())
-        if num > 0:
-            cont += 1
-            soma += num
-    print(f"{cont} valores positivos.")             
-    print(f"A soma dos positivos é:{soma / cont}")
-
+#defsoma(a, b, c, d, e, f):
+cont = 0
+soma = 0
+for i in range(6):
+    num = float(input())
+    if num > 0:
+        cont += 1
+        soma += num
+print(f"{cont} valores positivos.")             
+print(f"A soma dos positivos é:{soma / cont}")
+  
             
             
-        
-            
-            
-soma( 7, -5, 6, -3.4, 4.6, 12)
+#soma( 7, -5, 6, -3.4, 4.6, 12)
+    
     
 
 
