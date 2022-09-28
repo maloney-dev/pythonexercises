@@ -43,6 +43,15 @@
 #URI-1064
 
 def soma(a, b, c, d, e, f):
+    cont = 0
+    for i in range(6):
+        if i > 0:
+            cont =+ 1
+            print(f"{cont} são positivos.")
+        
+            
+            
+soma( 7, -5, 6, -3.4, 4.6, 12)
     
 
 
