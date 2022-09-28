@@ -1,0 +1,47 @@
+# # EX - 1048
+# def aumentoSalario(salario):
+
+#     if salario >= 0 and salario <= 400:
+#         perc = salario * 0.15
+#         vFinal = salario + perc
+#         print(f"Você recebia {salario}. O novo salario é: {vFinal}. Reajuste ganho é de: {perc}. Em um percentual de: 15% ")
+#     if salario >= 400.01 and salario <= 800.00:
+#         perc = salario * 0.12
+#         vFinal = salario + perc
+#         print(f"Você recebia {salario}. O novo salario é: {vFinal}. Reajuste ganho é de: {perc}. Em um percentual de: 12% ")
+#     if salario >= 800.01 and salario <= 1200.00:
+#         perc = salario * 0.10
+#         vFinal = salario + perc
+#         print(f"Você recebia {salario}. O novo salario é: {vFinal}. Reajuste ganho é de: {perc}. Em um percentual de: 10% ")
+#     if salario >= 1200.01 and salario <=2000.00:
+#         perc = salario * 0.07
+#         vFinal = salario + perc
+#         print(f"Você recebia {salario}. O novo salario é: {vFinal}. Reajuste ganho é de: {perc}. Em um percentual de: 7%.")
+#     if salario > 2000.00:
+#         perc = salario * 0.04
+#         vFinal = salario + perc
+#         print(f"Você recebia {salario}. O novo salario é: {vFinal}. Reajuste ganho é de: {perc}. Em um percentual de: 4% ")
+
+# aumentoSalario(1133)
+
+#EX- 2057
+# def calcFuso(partida, tempoV, fuso):     
+#     total = partida + tempoV + fuso
+#     if fuso < 0 and total <= 24 or total < 0:
+#         total = partida + tempoV + fuso
+#         print(f"voce chegará no seu destino {total}h.")
+#     elif total >= 24:
+#         total = total -24
+#         print(f"voce chegará no seu destino {total}h.")
+#     elif total <= 24:
+#         print(f"voce chegará no seu destino {total}h.")
+#     elif total < 0:
+#         total = total + 24
+#         print(f"voce chegará no seu destino {total}h.")       
+# calcFuso(15, 13, -4)
+
+
+
+
+
+
